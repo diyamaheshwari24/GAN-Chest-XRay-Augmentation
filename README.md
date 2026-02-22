@@ -1,7 +1,7 @@
 # 🫁 GAN-Based Chest X-Ray Augmentation for Pneumonia Detection
 
 <p align="center">
-  <img src="/Users/diyamaheshwari/Desktop/git GAN/GAN-Chest-XRay-Augmentation/What-Can-X-Rays-Detect-18.jpg" alt="Project Banner" width="800"/>
+  <img src="What-Can-X-Rays-Detect-18.jpg" alt="Project Banner" width="800"/>
 </p>
 
 <p align="center">
@@ -189,8 +189,8 @@ GENERATOR                                      CRITIC
 <th>WGAN-GP (256×256)</th>
 </tr>
 <tr>
-<td><img src="/Users/diyamaheshwari/Desktop/git GAN/GAN-Chest-XRay-Augmentation/output.png" width="300"/></td>
-<td><img src="/Users/diyamaheshwari/Desktop/git GAN/GAN-Chest-XRay-Augmentation/samples_epoch_200.png" width="300"/></td>
+<td><img src="output.png" width="300"/></td>
+<td><img src="samples_epoch_200.png" width="300"/></td>
 </tr>
 </table>
 
@@ -233,7 +233,7 @@ Actual  NORMAL   182      52
 ### Grad-CAM Analysis
 
 <p align="center">
-  <img src="results/gradcam/gradcam_analysis.png" alt="Grad-CAM Analysis" width="700"/>
+  <img src="gradcam_3_PNEUMONIA_1.00.png" alt="Grad-CAM Analysis" width="700"/>
 </p>
 
 The Grad-CAM visualizations show that the model correctly focuses on:
