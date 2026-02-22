@@ -1,7 +1,7 @@
 # 🫁 GAN-Based Chest X-Ray Augmentation for Pneumonia Detection
 
 <p align="center">
-  <img src="docs/images/banner.png" alt="Project Banner" width="800"/>
+  <img src="/Users/diyamaheshwari/Desktop/git GAN/GAN-Chest-XRay-Augmentation/What-Can-X-Rays-Detect-18.jpg" alt="Project Banner" width="800"/>
 </p>
 
 <p align="center">
@@ -189,8 +189,8 @@ GENERATOR                                      CRITIC
 <th>WGAN-GP (256×256)</th>
 </tr>
 <tr>
-<td><img src="results/samples/dcgan_progression.png" width="300"/></td>
-<td><img src="results/samples/wgan_progression.png" width="300"/></td>
+<td><img src="/Users/diyamaheshwari/Desktop/git GAN/GAN-Chest-XRay-Augmentation/output.png" width="300"/></td>
+<td><img src="/Users/diyamaheshwari/Desktop/git GAN/GAN-Chest-XRay-Augmentation/samples_epoch_200.png" width="300"/></td>
 </tr>
 </table>
 
