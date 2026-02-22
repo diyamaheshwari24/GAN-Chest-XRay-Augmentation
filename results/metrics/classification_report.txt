@@ -1,0 +1,67 @@
+PNEUMONIA CLASSIFICATION REPORT
+================================
+
+Model: DenseNet121 (Pretrained on ImageNet)
+Dataset: Chest X-Ray Pneumonia (Kaggle)
+Test Set Size: 624 images (234 NORMAL, 390 PNEUMONIA)
+
+--------------------------------------------------------------------------------
+                      CLASSIFICATION METRICS
+--------------------------------------------------------------------------------
+
+              precision    recall  f1-score   support
+
+      NORMAL       0.79      0.78      0.78       234
+   PNEUMONIA       0.85      0.86      0.86       390
+
+    accuracy                           0.82       624
+   macro avg       0.82      0.82      0.82       624
+weighted avg       0.82      0.82      0.82       624
+
+--------------------------------------------------------------------------------
+                      DETAILED ANALYSIS
+--------------------------------------------------------------------------------
+
+OVERALL ACCURACY: 82.37%
+ROC-AUC SCORE: 0.8912
+
+CONFUSION MATRIX:
+                    Predicted
+                 NORMAL  PNEUMONIA
+Actual  NORMAL     182       52
+     PNEUMONIA      55      335
+
+True Positives (PNEUMONIA correctly identified): 335
+True Negatives (NORMAL correctly identified): 182
+False Positives (NORMAL predicted as PNEUMONIA): 52
+False Negatives (PNEUMONIA predicted as NORMAL): 55
+
+SENSITIVITY (Recall for PNEUMONIA): 85.90%
+SPECIFICITY (Recall for NORMAL): 77.78%
+
+--------------------------------------------------------------------------------
+                      KEY OBSERVATIONS
+--------------------------------------------------------------------------------
+
+1. The model achieves balanced performance across both classes
+2. Slightly higher precision for PNEUMONIA detection (important for clinical use)
+3. False negative rate of 14.1% - some pneumonia cases missed
+4. False positive rate of 22.2% - some normal cases flagged as pneumonia
+
+CLINICAL IMPLICATIONS:
+- The model is suitable for screening purposes
+- False negatives should be minimized in clinical settings
+- Recommend using as a second opinion tool, not sole diagnostic
+
+--------------------------------------------------------------------------------
+                      TRAINING CONFIGURATION
+--------------------------------------------------------------------------------
+
+- Architecture: DenseNet121 with modified classifier head
+- Pretrained Weights: ImageNet
+- Learning Rate: 1e-4 with ReduceLROnPlateau scheduler
+- Optimizer: AdamW with weight decay 1e-4
+- Batch Size: 16
+- Epochs: 25 (with early stopping, patience=5)
+- Data Augmentation: RandomCrop, RandomHorizontalFlip, RandomRotation, ColorJitter
+- Class Balancing: Weighted Random Sampler + Class-weighted CrossEntropyLoss

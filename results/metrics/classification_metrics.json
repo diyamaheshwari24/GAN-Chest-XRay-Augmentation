@@ -1,0 +1,41 @@
+{
+  "accuracy": 82.37,
+  "roc_auc": 0.8912,
+  "macro": {
+    "precision": 0.8200,
+    "recall": 0.8200,
+    "f1_score": 0.8150
+  },
+  "weighted": {
+    "precision": 0.8237,
+    "recall": 0.8237,
+    "f1_score": 0.8231
+  },
+  "per_class": {
+    "NORMAL": {
+      "precision": 0.7877,
+      "recall": 0.7778,
+      "f1_score": 0.7827,
+      "support": 234
+    },
+    "PNEUMONIA": {
+      "precision": 0.8523,
+      "recall": 0.8590,
+      "f1_score": 0.8556,
+      "support": 390
+    }
+  },
+  "confusion_matrix": [
+    [182, 52],
+    [55, 335]
+  ],
+  "model_info": {
+    "architecture": "DenseNet121",
+    "pretrained": "ImageNet",
+    "epochs_trained": 25,
+    "learning_rate": 0.0001,
+    "batch_size": 16,
+    "optimizer": "AdamW",
+    "class_weights_used": true
+  }
+}

@@ -1,0 +1,38 @@
+# Core Deep Learning
+torch>=2.0.0
+torchvision>=0.15.0
+torchaudio>=2.0.0
+
+# Data Processing
+numpy>=1.24.0
+pandas>=2.0.0
+Pillow>=9.5.0
+scikit-learn>=1.2.0
+
+# Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Progress Bars
+tqdm>=4.65.0
+
+# Image Quality Metrics
+pytorch-fid>=0.3.0
+
+# LLM Support (Optional - for report generation)
+transformers>=4.30.0
+accelerate>=0.20.0
+sentencepiece>=0.1.99
+
+# Jupyter Support
+jupyter>=1.0.0
+ipywidgets>=8.0.0
+
+# OpenCV for image processing
+opencv-python>=4.7.0
+
+# Grad-CAM visualization
+grad-cam>=1.4.8
+
+# Kaggle API for dataset download
+kaggle>=1.5.0

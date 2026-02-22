@@ -1,0 +1,21 @@
+Condition: PNEUMONIA
+Confidence: 0.92
+Severity: severe
+
+FINDINGS:
+  • Dense consolidation involving multiple lobes
+  • Extensive bilateral alveolar infiltrates  
+  • Air bronchograms present throughout affected areas
+  • Possible small pleural effusion on the right
+
+POSSIBLE CAUSES:
+  • Severe bacterial pneumonia
+  • ARDS secondary to pneumonia
+  • Multi-lobar pneumonia requiring hospitalization
+
+IMPRESSION:
+  Pneumonia detected.
+  Severe presentation based on imaging characteristics.
+
+RECOMMENDATION:
+  Urgent clinical intervention recommended. Consider ICU admission and aggressive antibiotic therapy.

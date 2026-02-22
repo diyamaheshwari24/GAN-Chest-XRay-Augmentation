@@ -1,0 +1,20 @@
+Condition: PNEUMONIA
+Confidence: 0.78
+Severity: moderate
+
+FINDINGS:
+  • Consolidation in the lower lobes bilaterally
+  • Patchy alveolar infiltrates present
+  • Mild air bronchograms visible
+
+POSSIBLE CAUSES:
+  • Community-acquired bacterial pneumonia
+  • Viral pneumonia (influenza/COVID-19)
+  • Aspiration pneumonia
+
+IMPRESSION:
+  Pneumonia detected.
+  Moderate presentation based on imaging characteristics.
+
+RECOMMENDATION:
+  Recommend antibiotic therapy based on clinical presentation and follow-up imaging in 48-72 hours.

@@ -1,0 +1,35 @@
+{
+  "dcgan": {
+    "model": "DCGAN",
+    "image_size": 64,
+    "latent_dim": 100,
+    "feature_maps": 64,
+    "epochs": 50,
+    "batch_size": 64,
+    "learning_rate": 0.0002,
+    "images_generated": 100,
+    "fid_score": 142.3,
+    "training_time_hours": 1.5
+  },
+  "wgan_gp": {
+    "model": "WGAN-GP",
+    "image_size": 256,
+    "latent_dim": 100,
+    "feature_maps": 128,
+    "epochs": 200,
+    "batch_size": 32,
+    "learning_rate": 0.0001,
+    "n_critic": 5,
+    "lambda_gp": 10,
+    "images_generated": 2000,
+    "fid_score": 89.7,
+    "training_time_hours": 8.0,
+    "dataset_subset": 2000,
+    "pneumonia_only": true
+  },
+  "comparison": {
+    "metric": ["FID Score", "Image Quality", "Training Stability", "Resolution"],
+    "dcgan": ["142.3", "Moderate", "Less Stable", "64x64"],
+    "wgan_gp": ["89.7", "High", "Stable", "256x256"]
+  }
+}

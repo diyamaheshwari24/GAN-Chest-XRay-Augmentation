@@ -1,0 +1,19 @@
+Condition: NORMAL
+Confidence: 0.89
+Severity: none
+
+FINDINGS:
+  • Lungs are clear bilaterally
+  • No focal consolidation or infiltrates
+  • Normal cardiac silhouette
+  • No pleural effusion or pneumothorax
+
+POSSIBLE CAUSES:
+  • No abnormality detected
+
+IMPRESSION:
+  Normal lung fields.
+  No evidence of acute pulmonary pathology.
+
+RECOMMENDATION:
+  No intervention required. Routine follow-up as clinically indicated.
